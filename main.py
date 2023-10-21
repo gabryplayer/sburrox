@@ -25,7 +25,7 @@ if choice == "1":
 
  
 
-nome_file = "config.txt"
+ nome_file = "config.txt"
 
 percorso_file = os.path.join(cartella, nome_file)
 
