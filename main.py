@@ -23,7 +23,7 @@ choice = input("Ypur Choice> ")
 
 if choice == "1": 
 
- cartella = "sburrox"
+ 
 
 nome_file = "config.txt"
 
@@ -33,7 +33,7 @@ percorso_file = os.path.join(cartella, nome_file)
 
 while True:
 
-    with open(percorso_file, "r") as file:
+    
 
         frasi = file.readlines()
 
