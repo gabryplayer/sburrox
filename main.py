@@ -23,7 +23,7 @@ choice = input("Ypur Choice> ")
 
 if choice == "1": 
 
- cartella = "cttols"
+ cartella = "sburrox"
 
 nome_file = "config.txt"
 
