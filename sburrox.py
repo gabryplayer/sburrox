@@ -87,7 +87,7 @@ def genera_codice():
 if choice == '12':
     for _ in range(30000000000000000000000000000000000000000000000000000000000000000000000000000):
         codice_generato = genera_codice()
-        print( Fore.GREEN +  f"[-]Invalid - https://discord.gift/{codice_generato}" + Style.RESET_ALL)
+        print( Fore.GREEN +  f"https://discord.gift/{codice_generato}" + Style.RESET_ALL)
 else:
     print("Invalid Choice.")
 
